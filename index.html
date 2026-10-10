@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Srishti Bansal | Portfolio</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#fbf8ff;--card:#fff;--text:#231f33;--muted:#6b6580;--accent:#7c4dff;--accent2:#ff6fb1;--border:#e8e1f5}
+html{scroll-padding-top:70px;scroll-behavior:smooth}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14111f;--card:#1e1a2e;--text:#f1edfb;--muted:#a79fc0;--accent:#a78bfa;--accent2:#f472b6;--border:#322b4a}}
+:root[data-theme="dark"]{--bg:#14111f;--card:#1e1a2e;--text:#f1edfb;--muted:#a79fc0;--accent:#a78bfa;--accent2:#f472b6;--border:#322b4a}
+*,*:before,*:after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+a{color:var(--accent);text-decoration:none}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 20px;background:var(--bg);border-bottom:1px solid var(--border)}
+nav .links{display:flex;gap:16px;overflow-x:auto;font-size:.95rem}
+nav .links a{color:var(--muted);white-space:nowrap}
+nav .links a:hover{color:var(--accent)}
+button.t{background:var(--card);color:var(--text);border:1px solid var(--border);border-radius:999px;padding:6px 12px;cursor:pointer}
+section{max-width:900px;margin:0 auto;padding:56px 20px}
+h2{font-size:1.6rem;margin:0 0 20px}
+h2:after{content:"";display:block;width:48px;height:4px;border-radius:2px;margin-top:8px;background:linear-gradient(90deg,var(--accent),var(--accent2))}
+.hero{padding-top:72px}
+.hero h1{font-size:clamp(2.2rem,7vw,3.6rem);margin:0 0 8px;line-height:1.1}
+.grad{background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{color:var(--muted);font-size:1.1rem;max-width:560px}
+.btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.btn{padding:10px 18px;border-radius:10px;border:1px solid var(--border);background:var(--card);color:var(--text);font-weight:600}
+.btn.p{background:linear-gradient(90deg,var(--accent),var(--accent2));color:#fff;border:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px}
+.card h3{margin:0 0 6px;font-size:1.05rem}
+.card p{margin:0 0 10px;color:var(--muted);font-size:.95rem}
+.tag{display:inline-block;margin:0 6px 6px 0;padding:3px 10px;font-size:.8rem;border-radius:999px;background:var(--bg);border:1px solid var(--border);color:var(--muted)}
+.chips .tag{font-size:.9rem;padding:6px 14px;color:var(--text)}
+footer{text-align:center;color:var(--muted);padding:30px 20px;font-size:.9rem}
+</style>
+</head>
+<body>
+<nav>
+  <div class="links"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#certifications">Certifications</a><a href="#education">Education</a><a href="#contact">Contact</a></div>
+  <button class="t" id="theme" aria-label="Toggle theme">🌓</button>
+</nav>
+
+<section class="hero" id="top">
+  <h1>Hi, I'm <span class="grad">Srishti Bansal</span></h1>
+  <p>B.Tech Computer Science student at VIT Bhopal University with a passion for coding, design and creativity, always eager to explore new technologies.</p>
+  <div class="btns">
+    <a class="btn p" href="https://drive.google.com/file/d/1Tp4Tpr3znl7wftSaJEoExWQih_dkIuq4/view?usp=drivesdk" target="_blank" rel="noopener">View Resume</a>
+    <a class="btn" href="https://github.com/srish976" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn" href="https://www.linkedin.com/in/srishti-bansal-a91426273" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About</h2>
+  <p>I'm a third-year Computer Science Engineering student who enjoys turning ideas into working software. I like blending technical problem-solving with design thinking, and I'm looking for opportunities to learn, build and collaborate on real projects.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="chips">
+    <span class="tag">Java</span><span class="tag">Python</span><span class="tag">C / C++</span><span class="tag">HTML &amp; CSS</span><span class="tag">JavaScript</span><span class="tag">SQL</span><span class="tag">Linux &amp; Shell</span><span class="tag">Git &amp; GitHub</span><span class="tag">Cloud Computing</span><span class="tag">AI Foundations</span><span class="tag">Marketing Analytics</span><span class="tag">Problem Solving</span>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Java Project</h3>
+      <p>A Java-based project built as part of my coursework. Add a one-line description here.</p>
+      <span class="tag">Java</span>
+      <div><a href="https://github.com/srish976/java-project-" target="_blank" rel="noopener">View on GitHub →</a></div>
+    </div>
+    <div class="card">
+      <h3>Open Source Linux</h3>
+      <p>Shell-based work exploring Linux and open source tooling. Add a one-line description here.</p>
+      <span class="tag">Shell</span><span class="tag">Linux</span>
+      <div><a href="https://github.com/srish976/open_source_linux" target="_blank" rel="noopener">View on GitHub →</a></div>
+    </div>
+    <div class="card">
+      <h3>More on GitHub</h3>
+      <p>Browse all my repositories and see what I'm building next.</p>
+      <div><a href="https://github.com/srish976?tab=repositories" target="_blank" rel="noopener">All repositories →</a></div>
+    </div>
+  </div>
+</section>
+
+<section id="certifications">
+  <h2>Certifications</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate</h3>
+      <p>Oracle University · September 2025</p>
+      <span class="tag">AI</span><span class="tag">Cloud</span>
+    </div>
+    <div class="card">
+      <h3>Cloud Computing</h3>
+      <p>NPTEL, IIT Kharagpur · Jul–Oct 2025 · 12-week course</p>
+      <span class="tag">Cloud</span><span class="tag">NPTEL</span>
+    </div>
+    <div class="card">
+      <h3>Marketing Analytics</h3>
+      <p>NPTEL, IIT Kharagpur · Jan–Apr 2026 · Elite certificate, 82%</p>
+      <span class="tag">Analytics</span><span class="tag">NPTEL</span>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="card">
+    <h3>B.Tech in Computer Science &amp; Engineering</h3>
+    <p>VIT Bhopal University · Currently in 3rd year</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Want to collaborate or just say hi? Reach out on LinkedIn or check my code on GitHub.</p>
+  <div class="btns">
+    <a class="btn p" href="https://www.linkedin.com/in/srishti-bansal-a91426273" target="_blank" rel="noopener">Message on LinkedIn</a>
+    <a class="btn" href="https://github.com/srish976" target="_blank" rel="noopener">github.com/srish976</a>
+  </div>
+</section>
+
+<footer>© 2026 Srishti Bansal</footer>
+
+<script>
+document.getElementById('theme').addEventListener('click',function(){
+  var r=document.documentElement;
+  var dark=r.dataset.theme?r.dataset.theme==='dark':matchMedia('(prefers-color-scheme: dark)').matches;
+  r.dataset.theme=dark?'light':'dark';
+});
+</script>
+</body>
+</html>
